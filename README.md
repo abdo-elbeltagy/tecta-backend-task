@@ -11,6 +11,15 @@
 - Fetch data on demand from Yahoo Finance (`yfinance`).
 - Fully containerized backend with Docker.
 
+🔹 Caching
+
+- This API implements in-memory caching to improve performance and reduce repeated calls to Yahoo Finance (yfinance).
+
+- Cached data is stored per ticker and date range.
+
+- Cache expiration time (TTL) is 5 minutes.
+
+
 ---
 
 ## **Installation & Setup**
